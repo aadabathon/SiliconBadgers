@@ -1,0 +1,16 @@
+Abhinav Nandwani — 9:19 PM
+@Munasib Ilham @Jinhyeok Yim @Maxwell Weston @Adam Shebani 
+Hey everyone! Just following up on Monday’s deck: Compute1 will independently research what compute units the accelerator needs and produce its own proposal. The four boxes in the diagram are provisional, not four engines we have already committed to building.
+First, please check you can access your respective repos and issues linked below. Accept any pending invite, check you can push a branch, and open a PR for my review.
+Investigate the full operation set: matrix/vector arithmetic, projections, the output head, attention, DeltaNet/recurrent state, convolution, normalization/activation, and layout operations. Work out the arithmetic, sequencing, local control, persistent state, and temporary storage each needs.
+Use Software’s llama.cpp evidence to map operations/shapes/formats onto candidate hardware. Compare what can share a datapath and what needs separate resources or state/control. Account for prefill/decode utilization, precision, operand bandwidth, buffering, and data movement.
+Produce your team’s own research note, operation-to-unit mapping, candidate block diagram, and recommendation with evidence, alternatives, and open questions. Put these in rtl-compute.
+Share interface, buffer, and state requirements with Memory and Control as they emerge. Start with the existing profiling evidence while Software extends it.
+Please divide the work within your team. Try to schedule a team meeting sometime this week to review the issue, assign tasks, and agree on your first next steps.
+Research brief:
+https://github.com/SiliconBadgers/rtl-compute/issues/2
+Software evidence:
+https://github.com/SiliconBadgers/software/tree/main/experiments/llama-cpp/2026-09-22
+Central diagram:
+https://github.com/SiliconBadgers/architecture/blob/main/docs/accelerator-diagram.md
+Thanks all! Looking forward to your ideas.
