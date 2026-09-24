@@ -1,0 +1,36 @@
+ Info: Initializing timer in CLOCK_SYN_REPORT_MODE
+Information: The value of option cts.compile.enable_cell_relocation has been overridden to "leaf_only" to support latency-driven placement. (CTS-973)
+****************************************
+Report : clock qor
+        -type summary
+Design : cpu16_core
+Version: X-2025.06-SP3
+Date   : Thu Sep 24 11:32:54 2026
+****************************************
+
+Attributes
+===========
+M Master Clock
+G Generated Clock
+& Internal Generated Clock
+U User Defined Skew Group
+D Default Skew Group
+* Generated Clock Balanced Separately
+
+==================================================
+==== Summary Reporting for Corner ss0p95v125c ====
+==================================================
+
+========================================================= Summary Table for Corner ss0p95v125c =========================================================
+Clock /                               Attrs     Sinks Levels    Clock     Clock     Clock       Max    Global  Trans DRC  Cap DRC      Wire
+Skew Group                                                   Repeater  Repeater   Stdcell   Latency      Skew     Count     Count    Length
+                                                                Count      Area      Area
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+### Mode: func, Scenario: func_ss0p95v125c
+clk                                     M,D       199      2        4     17.54     17.54      0.08      0.02         0         0   1038.41
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+All Clocks                                        199      2        4     17.54     17.54      0.08      0.02         0         0   1038.41
+
+
+Warning: Please use -largest / -smallest / -all switches with -show_verbose_paths / -show_paths to report the clock paths. (CTS-956)
+1

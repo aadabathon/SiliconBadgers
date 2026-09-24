@@ -1,0 +1,30 @@
+****************************************
+Report : constraint
+	-all_violators
+	-path slack_only
+Design : cpu16_core
+Version: Y-2026.03
+Date   : Thu Sep 24 11:33:09 2026
+****************************************
+
+
+
+
+   max_capacitance
+
+                             Required        Actual
+   Pin                      Capacitance    Capacitance       Slack
+   -----------------------------------------------------------------
+   ctmTdsLR_2_634/Y             8.00           8.47          -0.47  (VIOLATED)
+   u_dp_pc_reg_3_/Q             8.00           8.24          -0.24  (VIOLATED)
+
+
+   max_transition
+
+                             Required        Actual
+   Pin                      Transition     Transition        Slack
+   -----------------------------------------------------------------
+   u_dp_pc_reg_3_/Q             0.09           0.09           0.00  (VIOLATED: increase significant digits)
+
+
+1

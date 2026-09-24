@@ -1,0 +1,44 @@
+****************************************
+Report : qor
+        -summary
+Design : cpu16_core
+Version: X-2025.06-SP3
+Date   : Thu Sep 24 11:32:54 2026
+****************************************
+Information: The stitching and editing of coupling caps is turned OFF for design 'cpu16_core.dlib:cpu16_core.design'. (TIM-125)
+Information: Design cpu16_core has 1675 nets, 0 global routed, 1673 detail routed. (NEX-024)
+Information: The RC mode used is DR for design 'cpu16_core'. (NEX-022)
+---extraction options---
+Corner: ss0p95v125c
+Global options:
+ reference_direction       : use_from_tluplus
+ real_metalfill_extraction : none
+ virtual_shield_extraction : true
+---app options---
+ host.max_cores                   : 4
+ extract.connect_open           : true
+ extract.enable_coupling_cap    : false
+Extracting design: cpu16_core 
+Information: coupling capacitance is lumped to ground. (NEX-030)
+Information: 1673 nets are successfully extracted. (NEX-028)
+Warning: Advanced receiver model has not been enabled for detailed routed design. (TIM-204)
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 1673, routed nets = 1673, across physical hierarchy nets = 0, parasitics cached nets = 1673, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+
+Timing
+---------------------------------------------------------------------------
+Context                                 WNS            TNS            NVE
+---------------------------------------------------------------------------
+func_ss0p95v125c   (Setup)             0.00           0.00              0
+Design             (Setup)             0.00           0.00              0
+
+func_ss0p95v125c   (Hold)              0.06           0.00              0
+Design             (Hold)              0.06           0.00              0
+---------------------------------------------------------------------------
+
+Miscellaneous
+---------------------------------------------------------------------------
+Cell Area (netlist):                           4486.40
+Cell Area (netlist and physical only):         8780.67
+Nets with DRC Violations:        2
+1

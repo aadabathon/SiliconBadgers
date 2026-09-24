@@ -1,0 +1,44 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type min
+        -max_paths 1
+        -report_by design
+Design : cpu16_core
+Version: X-2025.06-SP3
+Date   : Thu Sep 24 11:32:54 2026
+****************************************
+
+  Startpoint: u_dp_P_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_dp_P_reg (rising edge-triggered flip-flop clocked by clk)
+  Mode: func
+  Corner: ss0p95v125c
+  Scenario: func_ss0p95v125c
+  Path Group: clk
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.07      0.07
+
+  u_dp_P_reg/CLK (DFFX1_RVT)                       0.00      0.07 r
+  u_dp_P_reg/QN (DFFX1_RVT)                        0.13      0.20 r
+  U2453/Y (OAI22X1_RVT)                            0.08      0.28 f
+  u_dp_P_reg/D (DFFX1_RVT)                         0.00      0.28 f
+  data arrival time                                          0.28
+
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.07      0.07
+  u_dp_P_reg/CLK (DFFX1_RVT)                       0.00      0.07 r
+  clock uncertainty                                0.15      0.22
+  library hold time                                0.00      0.23
+  data required time                                         0.23
+  ------------------------------------------------------------------------
+  data required time                                         0.23
+  data arrival time                                         -0.28
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.06
+
+
+1

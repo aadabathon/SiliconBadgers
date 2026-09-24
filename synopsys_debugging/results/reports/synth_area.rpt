@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : cpu16_core
+Version: Y-2026.03
+Date   : Thu Sep 24 11:29:37 2026
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /srv/auto/apps/saed32_edk/2023/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+
+Number of ports:                           51
+Number of nets:                          2034
+Number of cells:                         1852
+Number of combinational cells:           1652
+Number of sequential cells:               199
+Number of macros/black boxes:               0
+Number of buf/inv:                        155
+Number of references:                      32
+
+Combinational area:               3979.386784
+Buf/Inv area:                      200.011328
+Noncombinational area:            1314.941099
+Macro/Black Box area:                0.000000
+Net Interconnect area:            1112.335324
+
+Total cell area:                  5294.327883
+Total area:                       6406.663207
+1

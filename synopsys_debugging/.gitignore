@@ -1,0 +1,7 @@
+ndm/
+*.ndm
+*.gds
+*.dlib/
+*.db
+*.lef
+runs/

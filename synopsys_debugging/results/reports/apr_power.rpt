@@ -1,0 +1,51 @@
+****************************************
+Report : power
+        -significant_digits 2
+Design : cpu16_core
+Version: X-2025.06-SP3
+Date   : Thu Sep 24 11:32:54 2026
+****************************************
+Mode: func
+Corner: ss0p95v125c
+Scenario: func_ss0p95v125c
+Voltage: 0.95
+Temperature: 125.00
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1fF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1pW
+Leakage Power Unit   : 1pW
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.00 (default)
+VSS (ground) probability 1.00 (default)
+
+  Cell Internal Power    = 4.18e+08 pW ( 80.9%)
+  Net Switching Power    = 9.84e+07 pW ( 19.1%)
+Total Dynamic Power      = 5.16e+08 pW (100.0%)
+
+Cell Leakage Power       = 2.36e+08 pW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+      i  -  Includes clock pin internal power
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                    0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+memory                    0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+black_box                 0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+clock_network             3.91e+08               6.65e+07               4.04e+06               4.62e+08    ( 61.4%)        i
+register                  6.11e+06               3.18e+06               9.81e+07               1.07e+08    ( 14.3%)         
+sequential                0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+combinational             2.02e+07               2.87e+07               1.34e+08               1.83e+08    ( 24.3%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                     4.18e+08 pW            9.84e+07 pW            2.36e+08 pW            7.52e+08 pW
+1

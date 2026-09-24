@@ -1,0 +1,313 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 5
+        -report_by design
+Design : cpu16_core
+Version: X-2025.06-SP3
+Date   : Thu Sep 24 11:32:54 2026
+****************************************
+
+  Startpoint: u_dp_ir_reg_13_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_dp_P_reg (rising edge-triggered flip-flop clocked by clk)
+  Mode: func
+  Corner: ss0p95v125c
+  Scenario: func_ss0p95v125c
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.06      0.06
+
+  u_dp_ir_reg_13_/CLK (DFFX2_RVT)                  0.00      0.06 r
+  u_dp_ir_reg_13_/Q (DFFX2_RVT)                    0.19      0.25 r
+  U1111/Y (OR2X1_RVT)                              0.08      0.33 r
+  ctmTdsLR_1_187/Y (NOR3X2_RVT)                    0.13      0.46 f
+  HFSINV_449_67/Y (INVX2_RVT)                      0.06      0.52 r
+  U1134/Y (OR2X1_RVT)                              0.07      0.58 r
+  U1141/Y (AOI21X1_RVT)                            0.11      0.69 f
+  ctmTdsLR_1_1019/Y (OR3X2_RVT)                    0.09      0.78 f
+  U1151/Y (OR3X2_RVT)                              0.08      0.87 f
+  U1155/Y (NOR2X2_RVT)                             0.10      0.96 r
+  HFSINV_636_87/Y (INVX4_RVT)                      0.05      1.02 f
+  ctmTdsLR_2_1342/Y (INVX0_RVT)                    0.04      1.06 r
+  ctmTdsLR_1_1341/Y (AO222X1_RVT)                  0.11      1.17 r
+  U951/Y (OR3X2_RVT)                               0.12      1.28 r
+  HFSINV_221_54/Y (INVX0_RVT)                      0.07      1.36 f
+  ctmTdsLR_2_1392/Y (OA22X1_RVT)                   0.09      1.45 f
+  ctmTdsLR_1_1391/Y (XNOR2X1_RVT)                  0.12      1.56 r
+  U1417/Y (NAND2X0_RVT)                            0.07      1.63 f
+  U1419/Y (OAI21X1_RVT)                            0.15      1.78 r
+  ctmTdsLR_2_1259/Y (NAND2X0_RVT)                  0.04      1.82 f
+  ctmTdsLR_1_1258/Y (AND2X1_RVT)                   0.06      1.87 f
+  ctmTdsLR_2_1268_roptpi_1421/Y (OAI21X1_RVT)      0.11      1.98 r
+  ctmTdsLR_2_736/Y (INVX1_RVT)                     0.02      2.01 f
+  ctmTdsLR_4_738/Y (OA221X1_RVT)                   0.13      2.13 f
+  U1586/Y (OAI21X1_RVT)                            0.14      2.27 r
+  ctmTdsLR_3_395/Y (INVX0_RVT)                     0.03      2.30 f
+  ctmTdsLR_5_397/Y (AO221X1_RVT)                   0.08      2.38 f
+  ctmTdsLR_2_189/Y (NAND3X0_RVT)                   0.07      2.45 r
+  ctmTdsLR_1_1234/Y (AO222X1_RVT)                  0.13      2.58 r
+  ctmTdsLR_1_988/Y (OR3X1_RVT)                     0.09      2.67 r
+  ctmTdsLR_3_679/Y (NOR4X1_RVT)                    0.11      2.78 f
+  U2453/Y (OAI22X1_RVT)                            0.09      2.87 r
+  u_dp_P_reg/D (DFFX1_RVT)                         0.00      2.87 r
+  data arrival time                                          2.87
+
+  clock clk (rise edge)                            3.00      3.00
+  clock network delay (propagated)                 0.07      3.07
+  u_dp_P_reg/CLK (DFFX1_RVT)                       0.00      3.07 r
+  clock uncertainty                               -0.15      2.92
+  library setup time                              -0.04      2.87
+  data required time                                         2.87
+  ------------------------------------------------------------------------
+  data required time                                         2.87
+  data arrival time                                         -2.87
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.00
+
+
+
+  Startpoint: u_dp_ir_reg_13_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_dp_rf_r_reg_0__12_ (rising edge-triggered flip-flop clocked by clk)
+  Mode: func
+  Corner: ss0p95v125c
+  Scenario: func_ss0p95v125c
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.06      0.06
+
+  u_dp_ir_reg_13_/CLK (DFFX2_RVT)                  0.00      0.06 r
+  u_dp_ir_reg_13_/Q (DFFX2_RVT)                    0.19      0.25 r
+  U1111/Y (OR2X1_RVT)                              0.08      0.33 r
+  ctmTdsLR_1_187/Y (NOR3X2_RVT)                    0.13      0.46 f
+  HFSINV_449_67/Y (INVX2_RVT)                      0.06      0.52 r
+  U1134/Y (OR2X1_RVT)                              0.07      0.58 r
+  U1141/Y (AOI21X1_RVT)                            0.11      0.69 f
+  ctmTdsLR_1_1019/Y (OR3X2_RVT)                    0.09      0.78 f
+  U1151/Y (OR3X2_RVT)                              0.08      0.87 f
+  U1155/Y (NOR2X2_RVT)                             0.10      0.96 r
+  HFSINV_636_87/Y (INVX4_RVT)                      0.05      1.02 f
+  ctmTdsLR_2_1342/Y (INVX0_RVT)                    0.04      1.06 r
+  ctmTdsLR_1_1341/Y (AO222X1_RVT)                  0.11      1.17 r
+  U951/Y (OR3X2_RVT)                               0.12      1.28 r
+  HFSINV_221_54/Y (INVX0_RVT)                      0.07      1.36 f
+  ctmTdsLR_2_1392/Y (OA22X1_RVT)                   0.09      1.45 f
+  ctmTdsLR_1_1391/Y (XNOR2X1_RVT)                  0.12      1.56 r
+  U1417/Y (NAND2X0_RVT)                            0.07      1.63 f
+  U1419/Y (OAI21X1_RVT)                            0.15      1.78 r
+  ctmTdsLR_2_1259/Y (NAND2X0_RVT)                  0.04      1.82 f
+  ctmTdsLR_1_1258/Y (AND2X1_RVT)                   0.06      1.87 f
+  ctmTdsLR_2_1268_roptpi_1421/Y (OAI21X1_RVT)      0.11      1.98 r
+  U1694/Y (INVX0_RVT)                              0.06      2.04 f
+  U1733/Y (OAI21X1_RVT)                            0.13      2.17 r
+  ctmTdsLR_2_247/Y (AO21X1_RVT)                    0.09      2.26 r
+  ctmTdsLR_1_1195/Y (XNOR2X1_RVT)                  0.11      2.37 r
+  ctmTdsLR_1_331/Y (AO221X1_RVT)                   0.08      2.46 r
+  ctmTdsLR_1_1381/Y (OR3X2_RVT)                    0.09      2.55 r
+  ctmTdsLR_1_1016/Y (AOI222X2_RVT)                 0.21      2.76 f
+  ctmTdsLR_1_1049/Y (OAI22X1_RVT)                  0.10      2.86 r
+  u_dp_rf_r_reg_0__12_/D (DFFX1_RVT)               0.00      2.86 r
+  data arrival time                                          2.86
+
+  clock clk (rise edge)                            3.00      3.00
+  clock network delay (propagated)                 0.06      3.06
+  u_dp_rf_r_reg_0__12_/CLK (DFFX1_RVT)             0.00      3.06 r
+  clock uncertainty                               -0.15      2.91
+  library setup time                              -0.05      2.87
+  data required time                                         2.87
+  ------------------------------------------------------------------------
+  data required time                                         2.87
+  data arrival time                                         -2.86
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.01
+
+
+
+  Startpoint: u_dp_ir_reg_13_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_dp_rf_r_reg_7__12_ (rising edge-triggered flip-flop clocked by clk)
+  Mode: func
+  Corner: ss0p95v125c
+  Scenario: func_ss0p95v125c
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.06      0.06
+
+  u_dp_ir_reg_13_/CLK (DFFX2_RVT)                  0.00      0.06 r
+  u_dp_ir_reg_13_/Q (DFFX2_RVT)                    0.19      0.25 r
+  U1111/Y (OR2X1_RVT)                              0.08      0.33 r
+  ctmTdsLR_1_187/Y (NOR3X2_RVT)                    0.13      0.46 f
+  HFSINV_449_67/Y (INVX2_RVT)                      0.06      0.52 r
+  U1134/Y (OR2X1_RVT)                              0.07      0.58 r
+  U1141/Y (AOI21X1_RVT)                            0.11      0.69 f
+  ctmTdsLR_1_1019/Y (OR3X2_RVT)                    0.09      0.78 f
+  U1151/Y (OR3X2_RVT)                              0.08      0.87 f
+  U1155/Y (NOR2X2_RVT)                             0.10      0.96 r
+  HFSINV_636_87/Y (INVX4_RVT)                      0.05      1.02 f
+  ctmTdsLR_2_1342/Y (INVX0_RVT)                    0.04      1.06 r
+  ctmTdsLR_1_1341/Y (AO222X1_RVT)                  0.11      1.17 r
+  U951/Y (OR3X2_RVT)                               0.12      1.28 r
+  HFSINV_221_54/Y (INVX0_RVT)                      0.07      1.36 f
+  ctmTdsLR_2_1392/Y (OA22X1_RVT)                   0.09      1.45 f
+  ctmTdsLR_1_1391/Y (XNOR2X1_RVT)                  0.12      1.56 r
+  U1417/Y (NAND2X0_RVT)                            0.07      1.63 f
+  U1419/Y (OAI21X1_RVT)                            0.15      1.78 r
+  ctmTdsLR_2_1259/Y (NAND2X0_RVT)                  0.04      1.82 f
+  ctmTdsLR_1_1258/Y (AND2X1_RVT)                   0.06      1.87 f
+  ctmTdsLR_2_1268_roptpi_1421/Y (OAI21X1_RVT)      0.11      1.98 r
+  U1694/Y (INVX0_RVT)                              0.06      2.04 f
+  U1733/Y (OAI21X1_RVT)                            0.13      2.17 r
+  ctmTdsLR_2_247/Y (AO21X1_RVT)                    0.09      2.26 r
+  ctmTdsLR_1_1195/Y (XNOR2X1_RVT)                  0.11      2.37 r
+  ctmTdsLR_1_331/Y (AO221X1_RVT)                   0.08      2.46 r
+  ctmTdsLR_1_1381/Y (OR3X2_RVT)                    0.09      2.55 r
+  ctmTdsLR_1_1016/Y (AOI222X2_RVT)                 0.21      2.76 f
+  ctmTdsLR_1_1043/Y (OAI22X1_RVT)                  0.10      2.86 r
+  u_dp_rf_r_reg_7__12_/D (DFFX1_RVT)               0.00      2.86 r
+  data arrival time                                          2.86
+
+  clock clk (rise edge)                            3.00      3.00
+  clock network delay (propagated)                 0.06      3.06
+  u_dp_rf_r_reg_7__12_/CLK (DFFX1_RVT)             0.00      3.06 r
+  clock uncertainty                               -0.15      2.91
+  library setup time                              -0.05      2.87
+  data required time                                         2.87
+  ------------------------------------------------------------------------
+  data required time                                         2.87
+  data arrival time                                         -2.86
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.01
+
+
+
+  Startpoint: u_dp_ir_reg_13_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_dp_rf_r_reg_4__12_ (rising edge-triggered flip-flop clocked by clk)
+  Mode: func
+  Corner: ss0p95v125c
+  Scenario: func_ss0p95v125c
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.06      0.06
+
+  u_dp_ir_reg_13_/CLK (DFFX2_RVT)                  0.00      0.06 r
+  u_dp_ir_reg_13_/Q (DFFX2_RVT)                    0.19      0.25 r
+  U1111/Y (OR2X1_RVT)                              0.08      0.33 r
+  ctmTdsLR_1_187/Y (NOR3X2_RVT)                    0.13      0.46 f
+  HFSINV_449_67/Y (INVX2_RVT)                      0.06      0.52 r
+  U1134/Y (OR2X1_RVT)                              0.07      0.58 r
+  U1141/Y (AOI21X1_RVT)                            0.11      0.69 f
+  ctmTdsLR_1_1019/Y (OR3X2_RVT)                    0.09      0.78 f
+  U1151/Y (OR3X2_RVT)                              0.08      0.87 f
+  U1155/Y (NOR2X2_RVT)                             0.10      0.96 r
+  HFSINV_636_87/Y (INVX4_RVT)                      0.05      1.02 f
+  ctmTdsLR_2_1342/Y (INVX0_RVT)                    0.04      1.06 r
+  ctmTdsLR_1_1341/Y (AO222X1_RVT)                  0.11      1.17 r
+  U951/Y (OR3X2_RVT)                               0.12      1.28 r
+  HFSINV_221_54/Y (INVX0_RVT)                      0.07      1.36 f
+  ctmTdsLR_2_1392/Y (OA22X1_RVT)                   0.09      1.45 f
+  ctmTdsLR_1_1391/Y (XNOR2X1_RVT)                  0.12      1.56 r
+  U1417/Y (NAND2X0_RVT)                            0.07      1.63 f
+  U1419/Y (OAI21X1_RVT)                            0.15      1.78 r
+  ctmTdsLR_2_1259/Y (NAND2X0_RVT)                  0.04      1.82 f
+  ctmTdsLR_1_1258/Y (AND2X1_RVT)                   0.06      1.87 f
+  ctmTdsLR_2_1268_roptpi_1421/Y (OAI21X1_RVT)      0.11      1.98 r
+  U1694/Y (INVX0_RVT)                              0.06      2.04 f
+  U1733/Y (OAI21X1_RVT)                            0.13      2.17 r
+  ctmTdsLR_2_247/Y (AO21X1_RVT)                    0.09      2.26 r
+  ctmTdsLR_1_1195/Y (XNOR2X1_RVT)                  0.11      2.37 r
+  ctmTdsLR_1_331/Y (AO221X1_RVT)                   0.08      2.46 r
+  ctmTdsLR_1_1381/Y (OR3X2_RVT)                    0.09      2.55 r
+  ctmTdsLR_1_1016/Y (AOI222X2_RVT)                 0.21      2.76 f
+  ctmTdsLR_1_1048/Y (OAI22X1_RVT)                  0.10      2.86 r
+  u_dp_rf_r_reg_4__12_/D (DFFX1_RVT)               0.00      2.86 r
+  data arrival time                                          2.86
+
+  clock clk (rise edge)                            3.00      3.00
+  clock network delay (propagated)                 0.06      3.06
+  u_dp_rf_r_reg_4__12_/CLK (DFFX1_RVT)             0.00      3.06 r
+  clock uncertainty                               -0.15      2.91
+  library setup time                              -0.05      2.87
+  data required time                                         2.87
+  ------------------------------------------------------------------------
+  data required time                                         2.87
+  data arrival time                                         -2.86
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.01
+
+
+
+  Startpoint: u_dp_ir_reg_13_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_dp_rf_r_reg_3__12_ (rising edge-triggered flip-flop clocked by clk)
+  Mode: func
+  Corner: ss0p95v125c
+  Scenario: func_ss0p95v125c
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 0.06      0.06
+
+  u_dp_ir_reg_13_/CLK (DFFX2_RVT)                  0.00      0.06 r
+  u_dp_ir_reg_13_/Q (DFFX2_RVT)                    0.19      0.25 r
+  U1111/Y (OR2X1_RVT)                              0.08      0.33 r
+  ctmTdsLR_1_187/Y (NOR3X2_RVT)                    0.13      0.46 f
+  HFSINV_449_67/Y (INVX2_RVT)                      0.06      0.52 r
+  U1134/Y (OR2X1_RVT)                              0.07      0.58 r
+  U1141/Y (AOI21X1_RVT)                            0.11      0.69 f
+  ctmTdsLR_1_1019/Y (OR3X2_RVT)                    0.09      0.78 f
+  U1151/Y (OR3X2_RVT)                              0.08      0.87 f
+  U1155/Y (NOR2X2_RVT)                             0.10      0.96 r
+  HFSINV_636_87/Y (INVX4_RVT)                      0.05      1.02 f
+  ctmTdsLR_2_1342/Y (INVX0_RVT)                    0.04      1.06 r
+  ctmTdsLR_1_1341/Y (AO222X1_RVT)                  0.11      1.17 r
+  U951/Y (OR3X2_RVT)                               0.12      1.28 r
+  HFSINV_221_54/Y (INVX0_RVT)                      0.07      1.36 f
+  ctmTdsLR_2_1392/Y (OA22X1_RVT)                   0.09      1.45 f
+  ctmTdsLR_1_1391/Y (XNOR2X1_RVT)                  0.12      1.56 r
+  U1417/Y (NAND2X0_RVT)                            0.07      1.63 f
+  U1419/Y (OAI21X1_RVT)                            0.15      1.78 r
+  ctmTdsLR_2_1259/Y (NAND2X0_RVT)                  0.04      1.82 f
+  ctmTdsLR_1_1258/Y (AND2X1_RVT)                   0.06      1.87 f
+  ctmTdsLR_2_1268_roptpi_1421/Y (OAI21X1_RVT)      0.11      1.98 r
+  U1694/Y (INVX0_RVT)                              0.06      2.04 f
+  U1733/Y (OAI21X1_RVT)                            0.13      2.17 r
+  ctmTdsLR_2_247/Y (AO21X1_RVT)                    0.09      2.26 r
+  ctmTdsLR_1_1195/Y (XNOR2X1_RVT)                  0.11      2.37 r
+  ctmTdsLR_1_331/Y (AO221X1_RVT)                   0.08      2.46 r
+  ctmTdsLR_1_1381/Y (OR3X2_RVT)                    0.09      2.55 r
+  ctmTdsLR_1_1016/Y (AOI222X2_RVT)                 0.21      2.76 f
+  ctmTdsLR_1_1044/Y (OAI22X1_RVT)                  0.10      2.86 r
+  u_dp_rf_r_reg_3__12_/D (DFFX1_RVT)               0.00      2.86 r
+  data arrival time                                          2.86
+
+  clock clk (rise edge)                            3.00      3.00
+  clock network delay (propagated)                 0.06      3.06
+  u_dp_rf_r_reg_3__12_/CLK (DFFX1_RVT)             0.00      3.06 r
+  clock uncertainty                               -0.15      2.91
+  library setup time                              -0.05      2.87
+  data required time                                         2.87
+  ------------------------------------------------------------------------
+  data required time                                         2.87
+  data arrival time                                         -2.86
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.01
+
+
+1

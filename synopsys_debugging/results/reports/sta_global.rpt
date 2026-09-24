@@ -1,0 +1,12 @@
+****************************************
+Report : global_timing
+	-format { narrow }
+Design : cpu16_core
+Version: Y-2026.03
+Date   : Thu Sep 24 11:33:09 2026
+****************************************
+
+No setup violations found.
+
+No hold violations found.
+1
