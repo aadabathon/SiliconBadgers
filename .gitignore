@@ -1,2 +1,4 @@
 AI_stuff/venv/
 *.gguf
+vsim*
+*work/*

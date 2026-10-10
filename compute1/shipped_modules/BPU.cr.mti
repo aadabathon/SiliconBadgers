@@ -1,0 +1,26 @@
+C:/Users/adams/BPU/shipped_modules/tb_bpu_sa_array.sv {1 {vlog -work work -sv -stats=none C:/Users/adams/BPU/shipped_modules/tb_bpu_sa_array.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pe_tester
+-- Compiling module sa_tester
+-- Compiling module tb_bpu_sa_array
+
+Top level modules:
+	tb_bpu_sa_array
+
+} {} {}} C:/Users/adams/BPU/shipped_modules/bpu_sa_array_trace_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/adams/BPU/shipped_modules/bpu_sa_array_trace_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bpu_sa_array_trace_tb
+
+Top level modules:
+	bpu_sa_array_trace_tb
+
+} {} {}} C:/Users/adams/BPU/shipped_modules/bpu_sa_array.sv {1 {vlog -work work -sv -stats=none C:/Users/adams/BPU/shipped_modules/bpu_sa_array.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bpu_sa_delay
+-- Compiling module bpu_sa_pe
+-- Compiling module bpu_sa_array
+
+Top level modules:
+	bpu_sa_array
+
+} {} {}}
